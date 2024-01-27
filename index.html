@@ -1,0 +1,180 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    <div>    
+        <nav class="navi">
+            <ul>
+            <li><a href="#Home"><b>Home</b></a></li>
+            <li><a href="#Worksss"><b>Works</b></a></li>
+            <li><a href="#Abouttt"><b>About</b></a></li>
+            <li><a href="#Skills"><b>Skills</b></a></li>
+            <li><a href="#Certificate"><b>Certificate</b></a></li>
+            <li><a href="#Contacttt"><b>Contact</b></a></li>
+            </ul>
+        </nav>
+    </div>
+
+        <div class="header" id="Home">
+                <h1>I'm Jon Rafael Dizon, and this is my Portfolio.</h1>
+        </div>
+</head>
+
+    <body>
+        <div class="me">
+            <div class="title">
+                <h1> PORTFOLIO </h1>
+            </div>
+
+            <div class="me-content">
+                <div class="image">
+                    <img src="/images/jon.jpg">
+                </div>
+                <div class="text">
+                    <p>Simplicity is the ultimate sophistication.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="works" id="Worksss">
+            <div class="works-title">
+                <h1> WORKS </h1>
+            </div>
+        
+            <div class="works-images">
+                <div class="workitem">
+                    <img src = "/images/barbero.png"> 
+                </div>
+                <div class="workitem2">
+                    <img src = "/images/gizmo.png"> 
+                </div>
+                <div class="workitem3">
+                    <img src = "/images/obra.png"> 
+                </div>
+                <div class="workitem4">
+                    <img src = "/images/rep.png"> 
+                </div>
+                <div class="workitem5">
+                    <img src = "/images/watch.png"> 
+                </div>
+
+            </div>
+        </div>
+ 
+        <div class="skill" id="Skills">
+            <div class="skill-title">
+                <h1> SKILLS </h1>
+            </div>
+
+            <div class="skill-content">
+                <div class="skill-image">
+                    <img src="/images/skills.png">
+                </div>
+                <div class="text">
+                    <ul>
+                        <li>Programming</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+
+
+        <div class="cert" id="Certificate">
+            <div class="cert-title">
+                <h1> CERTIFICATE </h1>
+            </div>
+        
+            <div class="cert-content">
+                <div class="certitem">
+                    <img src = "/images/1.png"> 
+                </div>
+                <div class="certitem2">
+                    <img src = "/images/2.png"> 
+                </div>
+                <div class="certitem3">
+                    <img src = "/images/3.png"> 
+                </div>
+                <div class="certitem4">
+                    <img src = "/images/4.png"> 
+                </div>
+                <div class="certitem5">
+                    <img src = "/images/5.png"> 
+                </div>
+                <div class="certitem6">
+                    <img src = "/images/6.png"> 
+                </div>
+                <div class="certitem7">
+                    <img src = "/images/7.jpg"> 
+                </div>
+                <div class="certitem8">
+                    <img src = "/images/8.png"> 
+                </div>
+                <div class="certitem9">
+                    <img src = "/images/9.png"> 
+                </div>
+
+            </div>
+        </div>
+
+        <div class="about" id="Abouttt">
+            <div class="about-title">
+                <h1> ABOUT </h1>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/images/about.png">
+                </div>
+                <div class="text">
+                    <p>At first I hate coding because I'm having a very hard time learning it, 
+                        but I came across one subject which is "ICT" and my Professor gave us a task to make 
+                        our very own website. My website isn't looking very nice and it is very very bad. 
+                        Days passed, I finished my website and even if it's not attractive I told myself that this is very 
+                        fun to do. Since then, I am still willing to learn coding up until now.
+                    </p>
+                </div>
+            </div>
+        </div>    
+
+        <div class="contact" id="Contacttt">
+            <div class="contact">
+                <div class="contact-title">
+                    <h1> CONTACT </h1>
+                </div>
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+
+          <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+          <script>
+            $(window).scroll(function(){
+                if($(window).scrollTop()){
+                    $("nav").addClass("black");
+                }
+                else{
+                    $("nav").removeClass("black");
+                }
+            });
+          </script>
+    </body>
+</html>
